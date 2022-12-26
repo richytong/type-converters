@@ -1,0 +1,31 @@
+{
+  "name": "type-converters",
+  "version": "0.0.0",
+  "description": "Convert between various types",
+  "author": "Richard Tong",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "github:richytong/type-converters"
+  },
+  "homepage": "https://github.com/richytong/type-converters",
+  "keywords": [
+    "type",
+    "conversion",
+    "converter",
+    "utility"
+  ],
+  "devDependencies": {
+    "codecov": "^3.7.1",
+    "eslint": "^8.4.1",
+    "mocha": "^7.2.0",
+    "nyc": "^15.1.0",
+    "thunk-test": "latest"
+  },
+  "scripts": {
+    "test": "mocha */**.js",
+    "test-coverage": "nyc mocha */**.js",
+    "lint": "eslint ."
+  }
+}
